@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stat</title>
+</head>
+<body>
+  <a href="/rays_stats">Back</a>
+
+  <h1>{{stat.name}}</h1>
+  <p>Pos: {{stat.id}}</p>
+  <p>AVG: {{stat.avg}}</p>
+  <p>HR: {{stat.hr}}</p>  
+  <p>WAR: {{stat.war}}</p>
+</body>
+</html>
