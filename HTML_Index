@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rays Stats</title>
+</head>
+<body>
+  <a href="/rays_stats">Back</a>
+  <h1> Rays Roster Stats</h1>
+  
+  <ul>
+   {% for stat in rays_stats %}
+       <li>
+      <a href="/rays_stats/{{stat.id}}">{{stat.name}}</a>
+    </li>
+   {% endfor %}
+  </ul>
+  
+</body>
+</html>
